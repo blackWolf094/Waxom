@@ -1,0 +1,142 @@
+.col-xs-five,
+.col-sm-five,
+.col-md-five,
+.col-lg-five {
+    position: relative;
+    min-height: 1px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.col-xs-five {
+    width: 20%;
+    float: left;
+}
+
+@media (min-width: 768px) {
+    .col-sm-five {
+        width: 20%;
+        float: left;
+    }
+}
+
+@media (min-width: 992px) {
+    .col-md-five {
+        width: 20%;
+        float: left;
+    }
+}
+
+@media (min-width: 1200px) {
+    .col-lg-five {
+        width: 20%;
+        float: left;
+    }
+}
+html,body,header, #intro{
+	height: 100%;
+}
+#intro{
+	background: url(../img/intro.png) center no-repeat;
+	background-size: cover;
+}
+#intro:before, .presantation::before, .sponsors::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0,0,0,0.5);  
+  z-index: 0;
+}
+.textWaxom{
+	color:  #a79580;
+}
+.btnColorP{
+	background-color: #a79580;
+}
+.btnColor{
+	background-color: #a79580;
+  margin: 1em auto;
+  padding: 1em;
+  box-shadow: 0 6px 2px -2px rgba(0, 0, 0, .5);
+}
+.top-nav-collapse{
+	background-color: #191919;
+}
+.imgSize{
+	max-width: 100%;
+	height: auto;
+}
+.box {
+  display: block;
+  justify-content: start;
+  align-items:start;
+  background-color: #fbfaf8;
+}
+.box:hover{
+	background-color: #352f2d;
+}
+.box:hover p{
+	color: #ffffff;
+}
+.imgSizeS{
+	height: 240px;
+	width: 350px;
+}
+#waxomRealization{
+	background-color: #fbfaf8;
+}
+#offer{
+	height: 100px;
+	width: 100%;
+	background-color: #35261f;
+}
+.presantation{
+	 position: relative;
+	height: 500px;
+	width: auto;
+	background: url(../img/presentation.png) center no-repeat;
+	background-size: cover;
+} 
+.sponsors{
+	position: relative;
+	height: 500px;
+	width: auto;
+	background: url(../img/partnersBackground.png) center no-repeat;
+	background-size: cover;
+} 
+#counters{
+	background-color: #29201c;
+}
+#offer2{
+	height: 285px;
+	width: 100%;
+	background-color: #ffffff;
+}
+#response{
+	background-color: #dddadd;
+}
+#footer{
+	background-color: #191919;
+}
+#footerColor{
+	background-color: #101010;
+	height: 80px;
+	width: auto;
+}
+.imgBox{
+	height: 260px; 
+	width: 375px;
+}
+.textColor{
+	color: #2d2d2d;
+}
+.line{
+   border-bottom: 1px solid #a79580;
+}
+.block{
+	height: 30px;
+	width: 30px;
+}
